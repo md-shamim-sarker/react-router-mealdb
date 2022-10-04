@@ -1,0 +1,6 @@
+.categories {
+    width: 80vw;
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}

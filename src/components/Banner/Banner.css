@@ -1,0 +1,29 @@
+.banner {
+    width: 100vw;
+    height: 70vh;
+    background: url('../../image/banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.banner-text {
+    text-align: left;
+    width: 35%;
+    margin-left: 5rem;
+    color: var(--orange);
+}
+
+@media screen and (max-width: 576px) {
+    .banner {
+        height: 38vh;
+    }
+
+    .banner-text {
+        text-align: left;
+        width: 100%;
+        margin-left: 1rem;
+        color: #f12d0a
+    }
+}
