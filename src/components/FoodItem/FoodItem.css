@@ -1,8 +1,8 @@
-.category {
+.foodItem {
     padding: 0 0 1rem 0;
     box-shadow: 5px 5px 10px gray;
 }
 
-.category img {
+.foodItem img {
     width: 100%;
 }

@@ -9,6 +9,7 @@ const Home = () => {
     return (
         <div className='home'>
             <Banner></Banner>
+
             <div className='categories'>
                 {
                     categories.map(category => <Category

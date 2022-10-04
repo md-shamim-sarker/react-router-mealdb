@@ -1,8 +1,4 @@
-.home {
-    width: 100vw;
-}
-
-.categories {
+.foodItems {
     width: 80vw;
     margin: 2rem auto;
     display: grid;
@@ -12,7 +8,7 @@
 }
 
 @media screen and (max-width: 576px) {
-    .categories {
+    .foodItems {
         width: 90vw;
         margin: 1rem auto;
         grid-template-columns: 1fr;
