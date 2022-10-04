@@ -16,7 +16,13 @@ const App = () => {
       path: "/",
       element: <Main></Main>,
       children: [
-        // {path: "/", element: <Home></Home>},
+        {
+          path: "/",
+          loader: async () => {
+            return fetch('https://www.themealdb.com/api/json/v1/1/categories.php');
+          },
+          element: <Home></Home>
+        },
         {
           path: "/home",
           loader: async () => {
@@ -24,6 +30,7 @@ const App = () => {
           },
           element: <Home></Home>
         },
+
         {
           path: "/category/:strCategory",
           loader: async ({params}) => {

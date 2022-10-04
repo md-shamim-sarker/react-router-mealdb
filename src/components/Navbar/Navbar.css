@@ -1,3 +1,7 @@
+.navbar a {
+    color: #131212;
+}
+
 .lg-navbar {
     width: 90vw;
     margin: 1rem auto;
@@ -27,9 +31,23 @@
     color: #cc8707;
 }
 
+.mealdb-logo {
+    display: none;
+}
+
 @media screen and (max-width: 576px) {
-    .lg-navbar {
+    .lg-navbar nav {
         display: none;
+    }
+
+    .lg-navbar {
+        display: flex;
+        justify-content: center;
+        margin: 1.5rem;
+    }
+
+    .lg-navbar img {
+        transform: scale(1.4);
     }
 
     .sm-navbar-container {
@@ -56,5 +74,9 @@
         display: flex;
         justify-content: space-between;
         font-size: 1.5rem;
+    }
+
+    .mealdb-logo {
+        display: block;
     }
 }

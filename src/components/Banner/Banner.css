@@ -12,7 +12,14 @@
     text-align: left;
     width: 35%;
     margin-left: 5rem;
-    color: var(--orange);
+}
+
+.banner-text h1 {
+    color: var(--header-color);
+}
+
+.banner-text h5 {
+    color: var(--text-color);
 }
 
 @media screen and (max-width: 576px) {
@@ -24,6 +31,5 @@
         text-align: left;
         width: 100%;
         margin-left: 1rem;
-        color: #f12d0a
     }
 }

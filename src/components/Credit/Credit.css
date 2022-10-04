@@ -1,0 +1,15 @@
+.credit {
+    width: 80vw;
+    margin: auto;
+}
+
+.credit h1 {
+    text-align: center;
+}
+
+@media screen and (max-width: 576px) {
+    .credit {
+        width: 90vw;
+        margin: auto;
+    }
+}

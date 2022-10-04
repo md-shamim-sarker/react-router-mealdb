@@ -1,0 +1,15 @@
+.profile {
+    width: 80vw;
+    margin: auto;
+}
+
+.profile h1 {
+    text-align: center;
+}
+
+@media screen and (max-width: 576px) {
+    .profile {
+        width: 90vw;
+        margin: auto;
+    }
+}
